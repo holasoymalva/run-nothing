@@ -1,0 +1,6 @@
+run-nothing
+run-nothing-*
+*.exe
+*.out
+*.test
+.DS_Store
