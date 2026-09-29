@@ -8,19 +8,31 @@ Look extraordinarily productive while doing absolutely nothing. Simulates deep c
 
 ## Installation
 
+### Homebrew (macOS & Linux)
+
+```bash
+brew install holasoymalva/tap/run-nothing
+```
+
+### Quick Install Script (macOS & Linux)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/holasoymalva/run-nothing/main/install.sh | sh
+```
+
+### Go Install
+
+```bash
+go install github.com/holasoymalva/run-nothing@latest
+```
+
 ### Download binary
 
 Grab the latest binary for your platform from [Releases](https://github.com/holasoymalva/run-nothing/releases)
 
 ```bash
 chmod +x run-nothing-*
-./run-nothing-linux-x86_64
-```
-
-### Homebrew
-
-```bash
-brew install run-nothing
+./run-nothing-macos-arm64
 ```
 
 ### Build from source

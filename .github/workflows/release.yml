@@ -1,0 +1,40 @@
+name: Release Binaries
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+
+      - name: Build cross-platform binaries
+        run: |
+          GOOS=darwin GOARCH=arm64 go build -ldflags="-s -w" -o run-nothing-macos-arm64 .
+          GOOS=darwin GOARCH=amd64 go build -ldflags="-s -w" -o run-nothing-macos-x86_64 .
+          GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o run-nothing-linux-x86_64 .
+          GOOS=linux GOARCH=arm64 go build -ldflags="-s -w" -o run-nothing-linux-arm64 .
+          GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o run-nothing-windows-x86_64.exe .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            run-nothing-macos-arm64
+            run-nothing-macos-x86_64
+            run-nothing-linux-x86_64
+            run-nothing-linux-arm64
+            run-nothing-windows-x86_64.exe
+          generate_release_notes: true
