@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1536" viewBox="0 0 860 1536">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="844" height="1520" rx="12" ry="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5" filter="url(#shadow)"/>
+  <path d="M 8 20 Q 8 8 20 8 L 840 8 Q 852 8 852 20 L 852 44 L 8 44 Z" fill="#161B22"/>
+  <line x1="8" y1="44" x2="852" y2="44" stroke="#30363D" stroke-width="1"/>
+  <!-- macOS Traffic Lights -->
+  <circle cx="28" cy="26" r="6" fill="#FF5F56"/>
+  <circle cx="48" cy="26" r="6" fill="#FFBD2E"/>
+  <circle cx="68" cy="26" r="6" fill="#27C93F"/>
+  <text x="430" y="31" fill="#8B949E" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" text-anchor="middle">run-nothing — claude-code — 110×45</text>
+  <!-- Claude Code Banner Box -->
+  <rect x="28" y="94" width="520" height="130" rx="6" ry="6" fill="none" stroke="#FF8700" stroke-width="1.5"/>
+  <!-- User Prompt Box -->
+  <rect x="28" y="294" width="600" height="46" rx="5" ry="5" fill="none" stroke="#4B5563" stroke-width="1.2"/>
+  <rect x="42" y="286" width="44" height="16" fill="#0D1117"/>
+  <text x="48" y="298" fill="#F3F4F6" font-family="Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold">User</text>
+  <text x="28" y="68" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">$ </tspan><tspan fill="#F3F4F6" font-weight="bold">./run-nothing</tspan></text>
+  <text x="28" y="128" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">   </tspan><tspan fill="#FF8700" font-weight="bold">Claude Code</tspan><tspan fill="#9CA3AF"> (v2.1.139)</tspan></text>
+  <text x="28" y="148" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">   </tspan><tspan fill="#9CA3AF">Opus 4.6</tspan><tspan fill="#F3F4F6"> · </tspan><tspan fill="#22D3EE">Sonnet 4.6</tspan><tspan fill="#F3F4F6"> · </tspan><tspan fill="#9CA3AF">Haiku 4.5</tspan></text>
+  <text x="28" y="188" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F3F4F6">   Welcome to </tspan><tspan fill="#FF8700">Claude Code</tspan><tspan fill="#F3F4F6"> research preview! </tspan><tspan fill="#9CA3AF">(simulated)</tspan></text>
+  <text x="28" y="208" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F3F4F6">   Active model: </tspan><tspan fill="#F3F4F6" font-weight="bold">claude-sonnet-4-6</tspan><tspan fill="#F3F4F6"> · Type </tspan><tspan fill="#22D3EE">/help</tspan><tspan fill="#F3F4F6"> for commands</tspan></text>
+  <text x="28" y="268" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">Autonomous Agent Mode active · Press Ctrl+C to stop</tspan></text>
+  <text x="28" y="328" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F3F4F6">  Fix goroutine leak and lock contention in distributed connection pool</tspan></text>
+  <text x="28" y="388" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">● </tspan><tspan fill="#F3F4F6" font-weight="bold">Grep</tspan><tspan fill="#9CA3AF">(&quot;AcquireConn&quot; path=&quot;internal/pool&quot;)</tspan></text>
+  <text x="28" y="408" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  └─ Found 9 matches across 3 files</tspan></text>
+  <text x="28" y="428" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">● </tspan><tspan fill="#F3F4F6" font-weight="bold">Read</tspan><tspan fill="#9CA3AF">(&quot;internal/pool/manager.go&quot; (lines 1-145))</tspan></text>
+  <text x="28" y="448" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  └─ Read 145 lines (4.8 KB)</tspan></text>
+  <text x="28" y="488" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80" font-weight="bold">✔ </tspan><tspan fill="#F3F4F6" font-weight="bold">Formulated execution plan</tspan></text>
+  <text x="28" y="528" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">● </tspan><tspan fill="#F3F4F6" font-weight="bold">EditFile</tspan><tspan fill="#9CA3AF">(path=&quot;internal/pool/manager.go&quot;)</tspan></text>
+  <text x="28" y="568" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171" font-weight="bold">--- a/internal/pool/manager.go</tspan></text>
+  <text x="28" y="588" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80" font-weight="bold">+++ b/internal/pool/manager.go</tspan></text>
+  <text x="28" y="608" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#22D3EE">@@ -64,11 +64,16 @@ func (p *Pool) Acquire(ctx context.Context) (*Conn, error) {</tspan></text>
+  <text x="28" y="628" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280">     select {</tspan></text>
+  <text x="28" y="648" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280">     case conn := &lt;-p.idleCh:</tspan></text>
+  <text x="28" y="668" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171">-        if conn.IsStale() {</tspan></text>
+  <text x="28" y="688" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171">-            conn.Close()</tspan></text>
+  <text x="28" y="708" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171">-            return p.dialNew(ctx)</tspan></text>
+  <text x="28" y="728" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171">-        }</tspan></text>
+  <text x="28" y="748" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+        if conn.IsStale() || !conn.Ping(ctx) {</tspan></text>
+  <text x="28" y="768" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+            _ = conn.Close()</tspan></text>
+  <text x="28" y="788" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+            p.metrics.StaleEvictions.Add(1)</tspan></text>
+  <text x="28" y="808" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+            return p.dialWithBackoff(ctx)</tspan></text>
+  <text x="28" y="828" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+        }</tspan></text>
+  <text x="28" y="848" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280">         return conn, nil</tspan></text>
+  <text x="28" y="868" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280">     case &lt;-ctx.Done():</tspan></text>
+  <text x="28" y="888" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F87171">-        return nil, ctx.Err()</tspan></text>
+  <text x="28" y="908" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+        p.metrics.ContextTimeouts.Add(1)</tspan></text>
+  <text x="28" y="928" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">+        return nil, fmt.Errorf(&quot;pool acquire aborted: %w&quot;, ctx.Err())</tspan></text>
+  <text x="28" y="948" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280">     }</tspan></text>
+  <text x="28" y="968" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#6B7280"> }</tspan></text>
+  <text x="28" y="1008" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">● </tspan><tspan fill="#F3F4F6" font-weight="bold">Bash</tspan><tspan fill="#9CA3AF">(go test -v -race -count=1 ./internal/pool/...)</tspan></text>
+  <text x="28" y="1028" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  === RUN   TestPoolAcquireConcurrency</tspan></text>
+  <text x="28" y="1048" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  --- PASS: TestPoolAcquireConcurrency (0.14s)</tspan></text>
+  <text x="28" y="1068" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  === RUN   TestPoolContextCancellationNoLeak</tspan></text>
+  <text x="28" y="1088" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  --- PASS: TestPoolContextCancellationNoLeak (0.08s)</tspan></text>
+  <text x="28" y="1108" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  ok   github.com/acme/core/internal/pool   0.412s (coverage: 94.2% of statements)</tspan></text>
+  <text x="28" y="1128" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80" font-weight="bold">  ✔ All checks passed!</tspan></text>
+  <text x="28" y="1168" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#C084FC">● UltraReview (Multi-Agent Verification):</tspan></text>
+  <text x="28" y="1188" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">  ✓ </tspan><tspan fill="#F3F4F6">Security: Verified no socket file descriptor leaks on context cancellation</tspan></text>
+  <text x="28" y="1208" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">  ✓ </tspan><tspan fill="#F3F4F6">Performance: Reduced p99 lock wait latency from 14.2ms to 0.3ms</tspan></text>
+  <text x="28" y="1248" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700">● </tspan><tspan fill="#F3F4F6" font-weight="bold">Bash</tspan><tspan fill="#9CA3AF">(git commit -m &quot;fix(pool): prevent goroutine leak and stale socket reuse&quot;)</tspan></text>
+  <text x="28" y="1268" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">  [detached HEAD 511c9df] fix(pool): prevent goroutine leak and stale socket reuse</tspan></text>
+  <text x="28" y="1288" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#22D3EE">  Branch &#x27;claude/fix-pool-goroutine-leak&#x27; updated.</tspan></text>
+  <text x="28" y="1328" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#22D3EE">● Canary Deployment: staging-us-east-1 (12/12 pods healthy)</tspan></text>
+  <text x="28" y="1348" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#22D3EE">Syncing pods </tspan><tspan fill="#F3F4F6">[</tspan><tspan fill="#4ADE80">████████████████████████████</tspan><tspan fill="#F3F4F6">] </tspan><tspan fill="#F3F4F6" font-weight="bold">100%</tspan><tspan fill="#9CA3AF"> (10/10)</tspan></text>
+  <text x="28" y="1368" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#4ADE80">  ✔ Rollout complete! Zero 5xx errors recorded.</tspan></text>
+  <text x="28" y="1408" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#FF8700" font-weight="bold">Claude:</tspan></text>
+  <text x="28" y="1428" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F3F4F6">I&#x27;ve resolved the goroutine leak in `internal/pool/manager.go` by ensuring stale</tspan></text>
+  <text x="28" y="1448" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#F3F4F6">connections are properly closed and context timeouts increment telemetry counters.</tspan></text>
+  <text x="28" y="1488" font-family="Menlo, Monaco, Consolas, monospace" font-size="13" xml:space="preserve"><tspan fill="#9CA3AF">● Cost: $0.0384 · Tokens: 15,822 in / 1,084 out · Duration: 3.4s</tspan></text>
+</svg>

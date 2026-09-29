@@ -2,17 +2,7 @@
 
 A terminal application that simulates running Claude Code. It doesn't actually run anything.
 
-```
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   Claude Code (v2.1.139)                                     │
-│   Opus 4.6 · Sonnet 4.6 · Haiku 4.5                          │
-│                                                              │
-│   Welcome to Claude Code research preview! (simulated)       │
-│   Active model: claude-sonnet-4-6 · Type /help for commands  │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
+![run-nothing terminal screenshot](assets/screenshot.png)
 
 Look extraordinarily productive while doing absolutely nothing. Simulates deep chain-of-thought reasoning, codebase indexing, colorized unified git diffs, test runners, multi-agent reviews, and canary deployments. Zero Anthropic API tokens used, $0.00 spent, zero local files touched.
 
