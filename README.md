@@ -20,7 +20,7 @@ Look extraordinarily productive while doing absolutely nothing. Simulates deep c
 
 ### Download binary
 
-Grab the latest binary for your platform from [Releases](https://github.com/holasoymalva/claude-nothing/releases)
+Grab the latest binary for your platform from [Releases](https://github.com/holasoymalva/run-nothing/releases)
 
 ```bash
 chmod +x run-nothing-*
@@ -117,12 +117,12 @@ docker run -it --rm --init run-nothing
 
 Install
 ```bash
-nix profile install github:holasoymalva/claude-nothing
+nix profile install github:holasoymalva/run-nothing
 ```
 
 Run
 ```bash
-nix run github:holasoymalva/claude-nothing
+nix run github:holasoymalva/run-nothing
 ```
 
 ## License
